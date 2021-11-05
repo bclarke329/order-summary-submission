@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* font-family: 'Open Sans Condensed', sans-serif; */
+ 
+
+/* primary colors
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%) */
+html {
+  background-color: #E0E8FF;
+  background-image: url(images/swirl-design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  width: min-content;
+  margin: auto;
+  
 }
